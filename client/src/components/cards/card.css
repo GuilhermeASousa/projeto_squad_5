@@ -1,0 +1,46 @@
+.cardd{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.card-id {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+  font-family: monospace;
+}
+
+.card-title {
+  display: inline;
+  color: white;
+}
+
+.card-developers {
+  margin-top: 15px;
+}
+
+.card-description {
+  margin-bottom: 10px;
+}
+
+.card-container:hover {
+  background-color: rgba(47, 255, 172, 0.616);
+}

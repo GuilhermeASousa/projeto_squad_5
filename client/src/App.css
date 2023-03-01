@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 10%;
+  color: white;
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+
+
+#home1{
+  background-color: rgba(47, 255, 172, 0.616);
+  margin-top: 10%;
+  width: 30%;
+  
+
+  height: 100px;
+  padding-top: 10px;
+
+}
+
+.register-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  width: max-content;
+  height: max-content;
+  margin-top: 20px;
+  border: 3px solid  rgba(47, 255, 172, 0.616);
+  border-radius: 10px;
+  color: brown;
+  background-color: rgba(47, 255, 172, 0.616);
+  margin-bottom: 20px;
+}
+
+.column{
+  display: flex;
+  flex-direction: row;
+}
+
+.column1, .column2{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#category{
+  height: 35px;
+}
+
+#name{
+  margin-bottom: 20px;
+}
+
+#developers{
+  margin-top: 20px;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  color: blue;
+  background-color: aqua;
+}
+
+.register-tittle{
+  font-family: 'Concert One', cursive;
+  font-size: 60px;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 0;
+  border: 3px solid  rgba(47, 255, 172, 0.616);
+  color: blueviolet;
+}
+
+.register-button{
+  font-weight: 900;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+}
+
+h1 {
+  color:  white;
+}

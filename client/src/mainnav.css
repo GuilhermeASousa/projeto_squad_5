@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+    
+
+
+}
+
+
+/*.container{
+    background-color: rgba(87, 62, 132, 0.571);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1%;
+    
+}*/
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#img2{
+    background-image: url(./components/img/img4.jpg);
+}
+
+#sublinhado{
+    text-align: center;
+}
+
+#contato{
+    margin-top: 10%;
+    justify-content: center;
+    
+}
+
+#titulo{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+    background: rgba(47, 255, 172, 0.616);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    transform: translate(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(-30px);
+    }
+    0%{
+        transform: translate(0px);
+    }
+}
+
+
+li{
+    margin-top: 1%;
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 3%;
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgba(47, 255, 172, 0.61);
+}
+
+
+
+

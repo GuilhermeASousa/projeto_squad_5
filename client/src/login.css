@@ -1,0 +1,178 @@
+#root,
+body,
+html {
+    
+    overflow-x: hidden
+}
+
+.loginPage {
+    align-items: center;
+    background: url(../src/components/img/login-bg.8ea32237b2ed152c1a8b.svg) 50%/cover no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw
+}
+
+.loginPage .logoImg {
+    left: 32px;
+    position: absolute;
+    top: 32px
+}
+
+.loginPage .loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    width: 100%
+}
+
+.loginPage .loginFormContainer h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 0 4px
+}
+
+.loginPage .loginFormContainer p {
+    color: #a3a3a3;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 24px
+}
+
+.loginPage .loginFormContainer .defaultBtn {
+    max-width: 100%
+}
+
+.loginPage .loginFormContainer .alignedGroup {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px
+}
+
+@media (max-width:991px) {
+    .loginPage .loginFormContainer {
+        max-width: 50vw
+    }
+}
+
+@media (max-width:768px) {
+    .loginPage .loginFormContainer {
+        max-width: 100%;
+        padding: 0 24px
+    }
+}
+
+.formInputContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 16px
+}
+
+.formInputContainer input {
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 15px;
+    height: 40px;
+    margin: 0;
+    padding: 10px;
+    transition: .2s;
+    width: 100%
+}
+
+.formInputContainer input:focus {
+    border: 1px solid #0b0b0b
+}
+
+.formInputContainer label {
+    font-size: 12px;
+    margin: 0 0 4px
+}
+
+.formInputContainer.darkMode input {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2
+}
+
+.formInputContainer.darkMode label {
+    color: #f2f2f2
+}
+
+.formInputContainer.invalid label {
+    color: #ea5455
+}
+
+.formInputContainer.invalid input {
+    background-color: rgba(234, 84, 85, .1);
+    border-color: #ea5455;
+    color: #ea5455
+}
+
+.formInputContainer.invalid .invalidText {
+    color: #ea5455;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0
+}
+
+.formInputContainer.darkMode.invalid input {
+    background-color: #f2f2f2;
+    color: #0b0b0b;
+} 
+
+.textBtn {
+    color: #242424;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 12px;
+    text-align: start;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+.textBtn:hover {
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none
+}
+
+.defaultBtn {
+    background: #ffd000;
+    border-radius: 8px;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    max-width: 165px;
+    padding: 14px 0;
+    text-align: center;
+    transition: .2s;
+    width: 100%
+}
+
+.defaultBtn:hover {
+    opacity: .7
+}
+
+.defaultBtn:disabled:hover {
+    opacity: 1
+}
+
+.defaultBtn:disabled {
+    background-color: #f2f2f2;
+    color: #a3a3a3
+}
+
+@media (max-width: 991px) {
+    .defaultBtn {
+        font-size:14px;
+        height: 40px;
+        padding: 10px 0
+    }
+}
